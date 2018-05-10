@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sie.dethi1.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ten sach"/>
+    <CheckBox
+        android:id="@+id/ck1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Vớ vẩn"/>
+    <CheckBox
+        android:id="@+id/ck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Linh tinh"/>
+    <CheckBox
+        android:id="@+id/ck3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Lằng nhằng"/>
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm mới"/>
+    <Button
+        android:id="@+id/btnup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật"/>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
